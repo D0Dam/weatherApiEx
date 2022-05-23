@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+		<script defer src="index.js"></script>
+		<title>Document</title>
+	</head>
+	<body>
+		<div class="title">유명 지역 날씨!</div>
+		<nav class="city-Nav">
+			<button id="seoul-Button" class="Seoul">Seoul</button>
+			<button id="london-Button" class="London">London</button>
+			<button id="tokyo-Button" class="Tokyo">Tokyo</button>
+			<button id="paris-Button" class="Paris">Paris</button>
+		</nav>
+		<div class="weather-Info">
+			<img id="weather-Icon" src="" alt="아이콘 로드 중..." width="248"></img>
+			<div id="weather-Des" alt="날씨 설명 로드 중..."></div>
+			<div id="weather-Temp" alt="온도 로드 중..."></div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+	</body>
+</html>

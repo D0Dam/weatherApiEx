@@ -1,0 +1,46 @@
+button {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+	border: none;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.title {
+	font-size: 3.6rem;
+	margin: 2.4rem;
+}
+
+.city-Nav {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 30rem;
+}
+
+button {
+	background: #e9d5ca;
+	width: 100%;
+}
+button:hover {
+	background: #363062;
+	color: whitesmoke;
+	transition: 0.3s;
+}
+
+.weather-Info {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin: 3.6rem;
+}
+
+.weather-Info div {
+	font-size: 1.6rem;
+	margin: 0.4rem;
+}
